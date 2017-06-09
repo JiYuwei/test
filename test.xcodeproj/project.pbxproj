@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0921D3781EE917E3006B05F3 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0921D3761EE917E3006B05F3 /* PhotoCell.m */; };
+		0921D3791EE917E3006B05F3 /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0921D3771EE917E3006B05F3 /* PhotoCell.xib */; };
+		0921D37B1EE91C93006B05F3 /* photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0921D37A1EE91C93006B05F3 /* photo@2x.png */; };
+		0921D3821EE9262D006B05F3 /* UIView+CornerExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0921D3811EE9262D006B05F3 /* UIView+CornerExtension.m */; };
+		094320981EEA55E400FE085E /* CornerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 094320971EEA55E400FE085E /* CornerManager.m */; };
+		0943209C1EEA662D00FE085E /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 0943209B1EEA662D00FE085E /* UIImageView+CornerRadius.m */; };
 		09C300471EE5238800E3A53D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C300461EE5238800E3A53D /* main.m */; };
 		09C3004A1EE5238800E3A53D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C300491EE5238800E3A53D /* AppDelegate.m */; };
 		09C3004D1EE5238800E3A53D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C3004C1EE5238800E3A53D /* ViewController.m */; };
-		09C300501EE5238800E3A53D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C3004E1EE5238800E3A53D /* Main.storyboard */; };
 		09C300521EE5238800E3A53D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09C300511EE5238800E3A53D /* Assets.xcassets */; };
-		09C300551EE5238800E3A53D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09C300531EE5238800E3A53D /* LaunchScreen.storyboard */; };
 		09C300601EE5238800E3A53D /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C3005F1EE5238800E3A53D /* testTests.m */; };
 		09C3006B1EE5238800E3A53D /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C3006A1EE5238800E3A53D /* testUITests.m */; };
+		09C3007D1EE5242300E3A53D /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C3007C1EE5242300E3A53D /* NavViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,15 +40,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0921D3751EE917E3006B05F3 /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		0921D3761EE917E3006B05F3 /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		0921D3771EE917E3006B05F3 /* PhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCell.xib; sourceTree = "<group>"; };
+		0921D37A1EE91C93006B05F3 /* photo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo@2x.png"; sourceTree = "<group>"; };
+		0921D3801EE9262D006B05F3 /* UIView+CornerExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+CornerExtension.h"; path = "CornerExtension/UIView+CornerExtension.h"; sourceTree = "<group>"; };
+		0921D3811EE9262D006B05F3 /* UIView+CornerExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+CornerExtension.m"; path = "CornerExtension/UIView+CornerExtension.m"; sourceTree = "<group>"; };
+		094320961EEA55E400FE085E /* CornerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CornerManager.h; path = CornerExtension/CornerManager.h; sourceTree = "<group>"; };
+		094320971EEA55E400FE085E /* CornerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CornerManager.m; path = CornerExtension/CornerManager.m; sourceTree = "<group>"; };
+		0943209A1EEA662D00FE085E /* UIImageView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+CornerRadius.h"; path = "CornerRadiusCategory/UIImageView+CornerRadius.h"; sourceTree = "<group>"; };
+		0943209B1EEA662D00FE085E /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+CornerRadius.m"; path = "CornerRadiusCategory/UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
 		09C300421EE5238800E3A53D /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09C300461EE5238800E3A53D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		09C300481EE5238800E3A53D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		09C300491EE5238800E3A53D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		09C3004B1EE5238800E3A53D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		09C3004C1EE5238800E3A53D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		09C3004F1EE5238800E3A53D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09C300511EE5238800E3A53D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		09C300541EE5238800E3A53D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09C300561EE5238800E3A53D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09C3005B1EE5238800E3A53D /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09C3005F1EE5238800E3A53D /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
@@ -51,6 +64,8 @@
 		09C300661EE5238800E3A53D /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09C3006A1EE5238800E3A53D /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
 		09C3006C1EE5238800E3A53D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09C3007B1EE5242300E3A53D /* NavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavViewController.h; sourceTree = "<group>"; };
+		09C3007C1EE5242300E3A53D /* NavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +93,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0921D37C1EE9247B006B05F3 /* CornerExtension */ = {
+			isa = PBXGroup;
+			children = (
+				0921D3801EE9262D006B05F3 /* UIView+CornerExtension.h */,
+				0921D3811EE9262D006B05F3 /* UIView+CornerExtension.m */,
+				094320961EEA55E400FE085E /* CornerManager.h */,
+				094320971EEA55E400FE085E /* CornerManager.m */,
+			);
+			name = CornerExtension;
+			sourceTree = "<group>";
+		};
+		094320991EEA65F600FE085E /* CornerRadiusCategory */ = {
+			isa = PBXGroup;
+			children = (
+				0943209A1EEA662D00FE085E /* UIImageView+CornerRadius.h */,
+				0943209B1EEA662D00FE085E /* UIImageView+CornerRadius.m */,
+			);
+			name = CornerRadiusCategory;
+			sourceTree = "<group>";
+		};
 		09C300391EE5238800E3A53D = {
 			isa = PBXGroup;
 			children = (
@@ -101,13 +136,19 @@
 		09C300441EE5238800E3A53D /* test */ = {
 			isa = PBXGroup;
 			children = (
+				094320991EEA65F600FE085E /* CornerRadiusCategory */,
+				0921D37C1EE9247B006B05F3 /* CornerExtension */,
 				09C300481EE5238800E3A53D /* AppDelegate.h */,
 				09C300491EE5238800E3A53D /* AppDelegate.m */,
+				09C3007B1EE5242300E3A53D /* NavViewController.h */,
+				09C3007C1EE5242300E3A53D /* NavViewController.m */,
 				09C3004B1EE5238800E3A53D /* ViewController.h */,
 				09C3004C1EE5238800E3A53D /* ViewController.m */,
-				09C3004E1EE5238800E3A53D /* Main.storyboard */,
+				0921D3751EE917E3006B05F3 /* PhotoCell.h */,
+				0921D3761EE917E3006B05F3 /* PhotoCell.m */,
+				0921D3771EE917E3006B05F3 /* PhotoCell.xib */,
 				09C300511EE5238800E3A53D /* Assets.xcassets */,
-				09C300531EE5238800E3A53D /* LaunchScreen.storyboard */,
+				0921D37A1EE91C93006B05F3 /* photo@2x.png */,
 				09C300561EE5238800E3A53D /* Info.plist */,
 				09C300451EE5238800E3A53D /* Supporting Files */,
 			);
@@ -207,6 +248,7 @@
 				TargetAttributes = {
 					09C300411EE5238800E3A53D = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 368DWFGUA5;
 						ProvisioningStyle = Automatic;
 					};
 					09C3005A1EE5238800E3A53D = {
@@ -246,9 +288,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09C300551EE5238800E3A53D /* LaunchScreen.storyboard in Resources */,
+				0921D3791EE917E3006B05F3 /* PhotoCell.xib in Resources */,
 				09C300521EE5238800E3A53D /* Assets.xcassets in Resources */,
-				09C300501EE5238800E3A53D /* Main.storyboard in Resources */,
+				0921D37B1EE91C93006B05F3 /* photo@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +316,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				09C3004D1EE5238800E3A53D /* ViewController.m in Sources */,
+				0921D3821EE9262D006B05F3 /* UIView+CornerExtension.m in Sources */,
+				0921D3781EE917E3006B05F3 /* PhotoCell.m in Sources */,
 				09C3004A1EE5238800E3A53D /* AppDelegate.m in Sources */,
 				09C300471EE5238800E3A53D /* main.m in Sources */,
+				0943209C1EEA662D00FE085E /* UIImageView+CornerRadius.m in Sources */,
+				094320981EEA55E400FE085E /* CornerManager.m in Sources */,
+				09C3007D1EE5242300E3A53D /* NavViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,25 +356,6 @@
 			targetProxy = 09C300671EE5238800E3A53D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		09C3004E1EE5238800E3A53D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				09C3004F1EE5238800E3A53D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		09C300531EE5238800E3A53D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				09C300541EE5238800E3A53D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		09C3006D1EE5238800E3A53D /* Debug */ = {
@@ -426,6 +454,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 368DWFGUA5;
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jyw.test;
@@ -437,6 +467,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 368DWFGUA5;
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jyw.test;
@@ -509,6 +541,7 @@
 				09C300711EE5238800E3A53D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09C300721EE5238800E3A53D /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +550,7 @@
 				09C300741EE5238800E3A53D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09C300751EE5238800E3A53D /* Build configuration list for PBXNativeTarget "testUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +559,7 @@
 				09C300771EE5238800E3A53D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
